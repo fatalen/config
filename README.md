@@ -27,3 +27,13 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 ```
 ln -s ~/dev/config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
 ```
+
+## 4. tmux multiplexer
+- make symbolic link to configuration file
+```
+ln -s ~/dev/config/tmux/.tmux.conf ~/.tmux.conf
+```
+
+## 5. neovim editor
+
+## 6. vscode editor
