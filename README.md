@@ -2,6 +2,10 @@
 - my configuration (dotfiles) for macos
 
 ## 1. homebrew package manager
+- install homebrew
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 - install packages
 ```
 curl -fsSL https://raw.githubusercontent.com/fatalen/config/main/brew/Brewfile | brew bundle --file=-
