@@ -1,7 +1,7 @@
 # configuration files
 - my configuration (dotfiles) for macos
 
-## 1. homebrew package manager
+## homebrew package manager
 - install homebrew
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -12,42 +12,22 @@ curl -fsSL https://raw.githubusercontent.com/fatalen/config/main/brew/Brewfile |
 
 ```
 
-## 2. fish shell
-- fish setup
+## zsh shell
+- zsh setup
 ```
-fish
-fish_add_path /opt/homebrew/bin
-echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells
-chsh -s /opt/homebrew/bin/fish
+ln -s ~/git/config/zsh/.zshrc ~/.zshrc
 ```
 
-## 3. alacritty terminal
-- get themes
+## ghostty terminal
+- simlink configuration file
 ```
-mkdir -p ~/.config/alacritty/themes
-git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
-```
-- make symbolic link to configuration file
-```
-ln -s ~/dev/config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
+mkdir -p ~/.config/ghostty
+ln -s ~/git/config/ghostty/config ~/.config/ghostty/config
 ```
 
-## 4. tmux multiplexer
-- make symbolic link to configuration file
-```
-ln -s ~/dev/config/tmux/.tmux.conf ~/.tmux.conf
-```
-- check 24bit color palette
-```
-curl -s https://gist.githubusercontent.com/lifepillar/09a44b8cf0f9397465614e622979107f/raw/24-bit-color.sh >24-bit-color.sh
-bash 24-bit-color.sh
-```
-
-## 5. neovim editor
+## neovim text editor
 - install lazyVim https://github.com/LazyVim/LazyVim?tab=readme-ov-file#-getting-started
 - lazyVim healthCheck
 ```
 :q LazyHealth
 ```
-
-## 6. vscode editor
