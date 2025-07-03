@@ -1,7 +1,7 @@
 # configuration files
-- my configuration (dotfiles) for macos
+- my configuration (dotfiles)
 
-## homebrew package manager
+## homebrew package manager (mac only)
 - install homebrew
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -18,11 +18,10 @@ curl -fsSL https://raw.githubusercontent.com/fatalen/config/main/brew/Brewfile |
 ln -s ~/git/config/zsh/.zshrc ~/.zshrc
 ```
 
-## ghostty terminal
+## wezterm terminal
 - simlink configuration file
 ```
-mkdir -p ~/.config/ghostty
-ln -s ~/git/config/ghostty/config ~/.config/ghostty/config
+ln -s ~/git/config/wezterm/.wezterm.lua ~/.wezterm.lua
 ```
 
 ## neovim text editor
