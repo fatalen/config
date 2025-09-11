@@ -26,5 +26,4 @@ should autoload config from `~/.zshrc`
 ## oh-my-posh
 - fedora install https://copr.fedorainfracloud.org/coprs/chronoscrat/oh-my-posh
 - macos install https://ohmyposh.dev/docs/installation/macos
-- https://copr.fedorainfracloud.org/coprs/chronoscrat/oh-my-posh
-- TODO https://ohmyposh.dev/ https://youtu.be/9U8LCjuQzdc?si=IYSzl-Q_0RLSHFeQ
+- TODO configure https://ohmyposh.dev/ https://youtu.be/9U8LCjuQzdc?si=IYSzl-Q_0RLSHFeQ
