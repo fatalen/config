@@ -63,3 +63,11 @@ eval "$(zoxide init --cmd cd zsh)"
 # volta
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+# opencode
+export PATH=/home/user/.opencode/bin:$PATH
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/user/.lmstudio/bin"
+# End of LM Studio CLI section
+

@@ -25,10 +25,11 @@ should autoload config from `~/.zshrc`
 - plugin manager https://github.com/zdharma-continuum/zinit
 
 ## kitty
+to change theme `kitten themes` https://sw.kovidgoyal.net/kitty/kittens/themes/
 
-## niri
+## niri + dms
 
-## dms
+## neovim
 
 ## fedora
 

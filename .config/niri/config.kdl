@@ -168,7 +168,8 @@ layout {
         // - CSS-like notation: "rgb(255, 127, 0)", rgba(), hsl() and a few others.
 
         // Color of the ring on the active monitor.
-        active-color "#98971a"
+        // for grubvox
+        // active-color "#98971a"
 
         // Color of the ring on inactive monitors.
         //
@@ -276,7 +277,7 @@ layout {
 
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
-    // skip-at-startup
+    skip-at-startup
 }
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
