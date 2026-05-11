@@ -71,3 +71,4 @@ export PATH=/home/user/.opencode/bin:$PATH
 export PATH="$PATH:/home/user/.lmstudio/bin"
 # End of LM Studio CLI section
 
+export PATH="$HOME/.local/bin:$PATH"

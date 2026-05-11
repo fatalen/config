@@ -33,5 +33,8 @@ to change theme `kitten themes` https://sw.kovidgoyal.net/kitty/kittens/themes/
 
 ## fedora
 
-- disable update reminders `gsettings set org.gnome.software allow-updates false`
 - system update `sudo dnf upgrade && sudo flatpak update && sudo fwupdmgr update`
+
+## global gitignore
+
+- `git config --global core.excludesfile ~/.gitignore`
