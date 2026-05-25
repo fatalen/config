@@ -54,11 +54,6 @@ setopt hist_ignore_dups
 setopt hist_find_no_dups
 
 # Shell integrations
-eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
-# if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-#   eval "$(oh-my-posh init zsh)"
-# fi
 
 # volta
 export VOLTA_HOME="$HOME/.volta"
@@ -72,3 +67,7 @@ export PATH="$PATH:/home/user/.lmstudio/bin"
 # End of LM Studio CLI section
 
 export PATH="$HOME/.local/bin:$PATH"
+
+eval "$(fzf --zsh)"
+
+eval "$(zoxide init zsh)"
